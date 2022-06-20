@@ -1,0 +1,31 @@
+public class Time2
+{
+
+    private int hour = 1;
+    private int minute = 2;
+    private int second = 3;
+   
+    //Private: only methods in same class can use them
+    //Public : Any class can use it
+    
+    public void setTime(int hour, int minute, int second)
+    {
+        
+        this.hour = ((hour>=0 && hour<24)? hour:0);
+        this.minute = ((minute>=0 && minute<60)? minute:0);
+        this.second = ((second>=0 && second<60)? second:0);
+       //this: uses the ones in the method not the declared ones outside the method 
+    }
+    
+    public String toMilitary()
+    {    
+        return String.format("%02d:%02d:%02d",hour , minute, second);
+    }
+    
+    public String toString()
+    {  
+        return String.format("%d:%02d:%02d %s", ((hour==0|| hour==12)?12:hour%12), minute, second, (hour <12? "AM": "PM"));
+    }
+
+        
+}

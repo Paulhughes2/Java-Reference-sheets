@@ -1,0 +1,28 @@
+public class Stuff3 {
+ 
+    private int month;
+    private int day;        
+    private int year;
+    
+    
+    public Stuff3(int d, int m, int y){
+        
+        month = m;
+        day = d;
+        year = y;
+  	//Private year set to whatever is passed as y
+        
+        System.out.printf("The constructor for this is %s\n", this);
+        // %s:String
+        // \n: new line
+        // this: as it is referencing a strng %s will look to toString
+    }
+    
+    public String toString() {
+        
+        return String.format("%d/%d/%d", day , month, year);
+    
+}
+    
+    
+}

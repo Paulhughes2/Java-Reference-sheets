@@ -1,0 +1,20 @@
+public class  ConditionalOperators
+{
+
+  	public static void main(String[] args) 
+ {
+
+	int age = 21;
+            
+        System.out.println(age > 50 ? "you are old" : "not old");
+                   
+	// check this, true? : False?
+            
+            
+        System.out.println("");
+        System.out.println("");
+
+ }
+
+        
+}

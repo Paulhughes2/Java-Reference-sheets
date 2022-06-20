@@ -1,0 +1,12 @@
+public class Food {
+    
+//SUPER Class
+    
+      public void eat(){
+        
+        System.out.println("Eat");
+        
+    }
+    //only public can be inherited
+    
+}

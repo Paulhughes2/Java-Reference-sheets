@@ -1,0 +1,24 @@
+public class DoWhile
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	// DO this WHILE this
+
+	// Does DO first then runs like while loop
+            
+    	int counter = 0;
+            	
+		do
+		{
+
+                System.out.println(counter);
+                counter++;
+                        
+            	}while(counter<=10);
+
+ }
+
+        
+}

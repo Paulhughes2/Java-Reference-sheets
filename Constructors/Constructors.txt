@@ -1,0 +1,27 @@
+public class Constructors
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	Constructor2 Con2object = new Constructor2();
+        
+	Constructor2 Con2object1 = new Constructor2(5);
+        
+	Constructor2 Con2object2 = new Constructor2(9,25);
+        
+	Constructor2 Con2object3 = new Constructor2(10,17,39);
+        // will match own agruements to constructors that has enough arguments
+        
+        System.out.printf("%s\n" , Con2object.toMilitary());
+        
+	System.out.printf("%s\n" , Con2object1.toMilitary());
+        
+	System.out.printf("%s\n" , Con2object2.toMilitary());
+        
+	System.out.printf("%s\n" , Con2object3.toMilitary());
+
+ }
+
+        
+}

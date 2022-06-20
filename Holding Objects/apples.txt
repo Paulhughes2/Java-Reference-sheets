@@ -1,0 +1,26 @@
+public class apples
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	Animal[] thelist = new Animal[3];
+
+        Dog d = new Dog();
+        Fish f = new Fish();
+        Animal a = new Animal();
+        
+        thelist[0] = d;
+        thelist[1] = f;
+        thelist[2] = a;
+        
+        for(Animal x: thelist){
+
+            x.noise();
+
+        }
+
+ }
+
+        
+}

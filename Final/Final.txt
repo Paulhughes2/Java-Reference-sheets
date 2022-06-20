@@ -1,0 +1,21 @@
+public class Final
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	Apples Applesobj = new Apples(10);
+        //sets 10 as X, X then becomes final NUMBER
+        
+        for(int i=0; i<5; i++)
+	{
+            
+            Applesobj.add();
+            
+            System.out.printf("%s", Applesobj);
+        }
+
+ }
+
+        
+}

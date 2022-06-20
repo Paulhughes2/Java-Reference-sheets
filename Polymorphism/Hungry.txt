@@ -1,0 +1,11 @@
+public class Hungry 
+{
+    
+    food to = new tuna();
+    
+    public void digest(food x)
+    {
+        x.eat();
+    }
+    
+}

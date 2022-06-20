@@ -1,0 +1,24 @@
+public class While
+{
+
+  	public static void main(String[] args) 
+ {
+
+	int d = 0;
+         
+        while (d < 5)
+	{
+           //Repeat while true
+             
+                System.out.println(d);
+             // Do this
+             
+                 d++;
+             //Add 1
+	     // If d doesnt change you create an infinite loop
+        }
+
+ }
+
+        
+}

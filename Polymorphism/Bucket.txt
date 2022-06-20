@@ -1,0 +1,10 @@
+public class Bucket extends food 
+{
+    
+        public void eat()
+	{
+        System.out.println("A Bucket of Food");
+    	}
+    
+}
+

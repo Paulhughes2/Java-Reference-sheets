@@ -1,0 +1,47 @@
+public class ClassA
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	// Methods in other classes 
+        
+        ClassB ClassBObject = new ClassB();
+       	//Class you want, Var Name, new name of class you want
+        
+        ClassBObject.Message();
+     	//The object, Method you want 
+   
+        
+	// Methods with Parameters  
+        
+        
+        Scanner input = new Scanner(System.in);
+        
+        ClassB ClassBinput = new ClassB();
+        
+        System.out.println("Enter Your name: ");
+        
+        String name = input.nextLine();
+        
+        ClassBinput.Name(name);
+        // (Agrument to send to other class)
+        
+        
+	//Multiple Methods and instances
+        
+                
+        ClassB ClassBnames = new ClassB();
+        
+        System.out.println("Enter Name : ");
+        
+        String temp = input.nextLine();
+        //temp var takes next line
+        
+        ClassBnames.setName(temp);
+        ClassBnames.saying();
+
+ }
+
+        
+}

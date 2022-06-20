@@ -1,0 +1,13 @@
+public class Banana extends Food {
+    //extends: inherit from
+    
+    
+    public void eat()
+	{
+        
+        System.out.println("Eating Banana's");
+        
+    	}
+    //will override food.eat method
+    //only public can be inherited
+}

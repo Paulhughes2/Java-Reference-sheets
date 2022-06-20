@@ -1,0 +1,6 @@
+public class Apples extends Food{
+    //extends: inherit from
+  
+    
+    
+}

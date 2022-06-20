@@ -1,0 +1,44 @@
+public class Increment {
+
+  	public static void main(String[] args) 
+	{
+
+	int Cake = 5;
+               
+        System.out.println(Cake  +  " Before increment");
+        
+        ++Cake;
+        //Adds 1 to var Cake
+        
+        System.out.println(Cake  +  " After increment");        
+        
+        System.out.println("");            
+        System.out.println("");
+        
+        //OR
+        
+        Cake = 5;
+        
+        System.out.println(  Cake + " Before increment");
+        
+        System.out.println(++Cake + " After increment");
+        
+        System.out.println("");            
+        System.out.println("");
+        
+        //OR
+        
+        Cake = 5;
+        
+        System.out.println( Cake++ + " Before increment");
+        
+        System.out.println( Cake   + " After increment");
+        
+        System.out.println("");            
+        System.out.println("");
+
+	}
+}
+	// ++Cake Adds 1 Before using
+        // Cake++ Adds 1 After using
+        // Works the same with --

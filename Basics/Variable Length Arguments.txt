@@ -1,0 +1,24 @@
+public class variablelengtharguments {
+
+  	public static void main(String[] args) 
+	{
+
+	System.out.println(average(43,45,84,95));
+
+	}
+
+	//Methods outside of the main {}
+
+	public static int average(int...numbers){
+        // ... : pass variable length arguments
+        
+        int total = 0;
+        
+        for (int x:numbers)
+            total+=x;
+        
+        return total/numbers.length;
+        
+    }
+
+}

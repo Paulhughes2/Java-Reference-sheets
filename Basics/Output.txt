@@ -1,0 +1,28 @@
+public class Output 
+{
+
+    public static void main(String[] args) 
+    {
+
+    	int Num1 = 4;
+       
+        System.out.println("Hello World");
+        // Prints out a line, and moves to next line
+
+        System.out.println(Num1);
+        //Prints out the variable
+
+        System.out.println("Hello World" +""+ Num1);
+        //Combination
+
+        System.out.println("");
+        //Blank
+
+        System.out.print("Line1");
+        System.out.print("Line2");
+        System.out.print("Line3");
+        //Print works on the same line
+       
+
+    }
+}

@@ -1,0 +1,22 @@
+public class Enumeration
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	for(Apple people: Apple.values())
+            System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getAge());
+        // %s : String
+        // \t: tab ~ 5 spaces
+        
+        System.out.println("\n The range \n");
+        
+        for(Apple people: EnumSet.range(Apple.George, Apple.Sam))
+            //Enumset.range sets start and end point of the array
+
+        System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getAge());
+        
+ }
+
+        
+}

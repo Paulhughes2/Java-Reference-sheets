@@ -1,0 +1,29 @@
+public class AssignmentOperators 
+{
+
+  	public static void main(String[] args) 
+  {
+
+	Cake = 5;
+        
+        System.out.println(Cake + " Before increment");
+        
+        Cake = Cake + 5;
+        
+        System.out.println(Cake + " After increment");
+        
+        //OR
+        
+        Cake = 5;
+        
+        System.out.println(Cake + " Before increment");
+        
+        Cake += 2;
+        
+        // Works with other operators "-" "*" "/" "%".
+	// "Subtract" "Multiply" "Divide" "Mod"
+        
+        System.out.println(Cake + " After increment");
+        
+  }
+}

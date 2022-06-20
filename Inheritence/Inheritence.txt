@@ -1,0 +1,17 @@
+public class Inheritence
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	Apples Applesobj = new Apples();
+        Banana Bananaobj = new Banana();
+        
+        Applesobj.eat();
+        Bananaobj.eat();
+        //both call eat method in food
+
+ }
+
+        
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class input {
+
+  	public static void main(String[] args) 
+	{
+	
+	Scanner Input = new Scanner(System.in);
+       	//Scanner (Var) = new Scanner(Keyboard Input)
+        
+        System.out.println("Need Input");
+        System.out.println(Input.nextLine());
+        //Grabs the input and prints it (Strings)
+        
+        
+        System.out.println("");            
+        System.out.println("");
+		
+
+	}
+}

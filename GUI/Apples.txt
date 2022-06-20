@@ -1,0 +1,33 @@
+import java.awt.FlowLayout;
+//imports layout management
+
+import javax.swing.JFrame;
+//Basic windows & features
+
+import javax.swing.JLabel;
+//Text and images
+
+public class Apples extends JFrame 
+{
+  
+    private JLabel item1;
+    
+    public Apples()
+    {
+        
+        super("The Title bar");
+        //title
+
+        setLayout(new FlowLayout());
+        // default layout
+        
+        item1 = new JLabel("This is a label");
+
+        item1.setToolTipText("ToolTip on hover");
+
+        add(item1);
+        
+    }
+    
+    
+}

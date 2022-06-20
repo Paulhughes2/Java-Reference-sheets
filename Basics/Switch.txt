@@ -1,0 +1,45 @@
+public class  Switch
+{
+
+  	public static void main(String[] args) 
+ {
+
+	 int c = 2;
+         
+         switch (c)
+	{
+             // variable you want to check
+             
+             case 1:    
+              // possible var  
+                 
+                 System.out.println("You are one");
+                 // if equal to var do this
+                 
+                 break;
+                 //Exits the statement
+                 
+             case 2:    
+                 
+                 System.out.println("You are Two");
+                 
+                 break;
+             
+             case 3:    
+                 
+                 System.out.println("You are Three");
+                 
+                 break;
+                 
+             default:
+             //Do this is all are false
+                 
+                 System.out.println("You are another number");
+                 
+                 break;   
+	}
+
+ }
+
+        
+}

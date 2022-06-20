@@ -1,0 +1,18 @@
+public class Time
+{
+
+  	public static void main(String[] args) 
+ {
+	Time2 Class2Time = new Time2();
+        
+        System.out.println(Class2Time.toMilitary()); 
+        System.out.println(Class2Time.toString());
+         
+        Class2Time.setTime(19, 39, 26);
+        
+        System.out.println(Class2Time.toMilitary());
+        System.out.println(Class2Time.toString());
+ }
+
+        
+}

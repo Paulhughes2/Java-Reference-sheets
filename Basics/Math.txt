@@ -1,0 +1,31 @@
+public class Math {
+
+  	public static void main(String[] args) 
+	{
+
+	System.out.println(Math.abs(-26.7));
+        //abs, how far from 0
+        
+        System.out.println(Math.ceil(7.2));
+        //ceil, Always rounds up
+        
+        System.out.println(Math.floor(2.8));
+        //floor, Always rounds down
+        
+        System.out.println(Math.max(8.6, 2.2));
+        //max, Takes 2 numbers, Outputs max
+        
+        System.out.println(Math.min(8.6, 2.2));
+        //min, Takes 2 numbers, Outputs min
+        
+        System.out.println(Math.pow(5 , 3));
+        //pow, Power of, (x ^ y)
+        
+        System.out.println(Math.sqrt(9));
+        //sqrt, Square root
+        
+        System.out.println("");            
+        System.out.println("");
+
+	}
+}

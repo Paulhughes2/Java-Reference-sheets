@@ -1,0 +1,26 @@
+public class GUICalc
+{
+
+  	public static void main(String[] args) 
+ {
+
+	String fn =  JOptionPane.showInputDialog("Enter first number");  
+        String sn =  JOptionPane.showInputDialog("Enter second number");
+         // used for input
+        
+        
+        int num1 = Integer.parseInt(fn);
+        int num2 = Integer.parseInt(sn);
+        // parse.Int, converts the string to an int
+        
+        
+        int sum = num1 + num2;
+        
+        JOptionPane.showMessageDialog(null,"The Answer is " +sum, "Title", JOptionPane.PLAIN_MESSAGE );
+        // used to show messages
+        //(Position(null is center), Message, Title bar, Prompt)	
+
+ }
+
+        
+}

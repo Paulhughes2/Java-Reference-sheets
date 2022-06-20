@@ -1,0 +1,21 @@
+public class Class1
+{
+
+  	public static void main(String[] args) 
+ {
+	Class2 Class2Name = new Class2("Fred");
+        //Passes a value
+
+        Class2 Class2Name2 = new Class2("George");
+       
+        Class2Name.saying();
+
+        System.out.println();
+
+        Class2Name2.saying();
+
+	//Multiple Objects passing different names
+ }
+
+        
+}

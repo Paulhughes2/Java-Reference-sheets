@@ -1,0 +1,22 @@
+import javax.swing.JFrame;
+
+public class EventHandlers
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	  Apples Applesobj = new Apples();
+      
+      Applesobj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      
+      Applesobj.setSize(350, 100);
+      
+      Applesobj.setVisible(true);
+        
+	// creates an object with a size of 350 x 100 and is visible
+
+ }
+
+        
+}

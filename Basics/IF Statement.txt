@@ -1,0 +1,69 @@
+public class  IFStatement
+{
+
+  	public static void main(String[] args) 
+  {
+
+	int Num1 = 6;
+	
+	 	if (Num1 == 9)
+		{
+                
+   		// (Condition), == is Equal, < Greater Than, > Less Than
+  		// != Not Equal, <= Greater Than or Equal,  >= Less Than or Equal  
+        
+                System.out.println (Num1 + " = 9");
+                
+        	}
+               
+            	else
+		{
+   		
+		// Do this if the IF condition is not true
+       
+                System.out.println (Num1 + " != 9");
+                    
+    
+                    if (Num1 > 5);
+		    {
+                	//Nested IF, an If within an IF or else
+                
+                          System.out.println (Num1 + " > 5");
+                            
+                    } 
+            	
+		}
+            
+	
+	if (Num1 > 9)
+	{
+                      
+           System.out.println (Num1 + " > 9");
+                
+        }
+            
+        else if(Num1 == 5)
+	{
+             
+                //else if are just extra options to If and else
+                
+                System.out.println (Num1 + " = 5");
+        }
+            
+        else
+	{
+	// Do this if the IF condition is not true
+       
+                System.out.println (Num1 + " < 9");
+            
+        }
+ 
+            System.out.println("");
+            System.out.println("");
+            
+	
+  }
+
+        
+}
+

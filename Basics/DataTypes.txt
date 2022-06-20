@@ -1,0 +1,25 @@
+public class DataTypes
+{
+
+    public static void main(String[] args) 
+    {
+
+    	int Num1 = 4;
+        int Num2 = 6;
+        // Whole numbers
+        
+        double Num3 = 4.3;
+        double Num4 = 6.2;
+        //Decimals
+        
+	double Num5, Num6;
+        //Multiple of same type
+        
+        boolean TrueFalse = true;
+        //True or False
+        
+        String Name = "Name";
+        //Words
+
+    }
+}

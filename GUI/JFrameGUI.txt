@@ -1,0 +1,23 @@
+import javax.swing.JFrame;
+
+public class JFrameGUI
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	Apples Applesobj = new Apples();
+
+        Applesobj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // hit X and it'll close
+
+        Applesobj.setSize(275,180);
+        //Size (X,Y)
+
+        Applesobj.setVisible(true);
+        //You can see it
+
+ }
+
+        
+}

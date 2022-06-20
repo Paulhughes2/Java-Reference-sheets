@@ -1,0 +1,53 @@
+public class ClassB 
+{
+    
+    
+	// Methods in other classes 
+    
+    
+    	public void Message()
+	{
+     	// Void: Will do something won't return
+     	// Public: Anyone can use
+        
+	System.out.println("Hello, This is ClassB");
+    
+    
+	}
+    
+	// Methods with Parameters  
+    
+    
+    public void Name(String name)
+	{
+                  // (Var you want to use)
+        System.out.println("Hello," + name);
+        
+    	}
+    
+    
+	//Multiple Methods and instances
+    
+    
+    	private String Name1;
+   	//private: Only methods in this class can use it
+    
+    
+    public void setName(String name)
+	{
+        Name1 = name;
+   	// When method is called will set whatever is passed to Name1     
+    	}
+    
+    public String getName()
+	{
+        //return type
+        return Name1;
+    	}
+    
+    public void saying()
+	{
+        System.out.printf("Your name is %s", getName());
+        // %s : looking for a string, String name
+        }
+}

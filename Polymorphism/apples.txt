@@ -1,0 +1,15 @@
+public class apples
+{
+
+  	public static void main(String[] args) 
+ {
+	
+	Hungry person = new Hungry();
+        food B = new Bucket();
+        
+        person.digest(B);
+
+ }
+
+        
+}

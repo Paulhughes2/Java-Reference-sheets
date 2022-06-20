@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Calculator 
+{
+
+  	public static void main(String[] args) 
+  {
+	
+	Scanner Numbers = new Scanner(System.in);
+        
+        double Calc1, Calc2, CalcTotal;
+        
+	System.out.println("Enter first number : ");
+        
+        Calc1 = Numbers.nextDouble();
+        //Grabs the first input (Numbers)
+        
+        System.out.println("Enter second number : ");
+        
+        Calc2 = Numbers.nextDouble();
+        //Grabs the second input (Numbers)
+        
+        CalcTotal= Calc1 + Calc2;
+        
+        System.out.println(CalcTotal);      
+	
+    }
+}

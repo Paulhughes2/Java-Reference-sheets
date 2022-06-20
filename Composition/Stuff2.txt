@@ -1,0 +1,23 @@
+public class Stuff2
+{
+	private String name;
+    	
+	private Stuff3 birthday;
+        // is set here but goes to Stuff 3 toString method
+    
+    	public Stuff2(String theName, Stuff3 theDate)
+	
+	{        
+        	name = theName;
+        	birthday = theDate;
+        	//%s looks here,
+    	}
+    
+    	public String toString() 
+	{
+        
+        return String.format("My Name is %s, my Birthday is %s", name, birthday);
+                                                                      //object
+        }
+        
+}

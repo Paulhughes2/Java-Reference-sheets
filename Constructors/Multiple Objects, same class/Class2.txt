@@ -1,0 +1,23 @@
+public class Class2 {
+    
+  
+   private String Name2;
+   //private: Only methods in this class can use it
+    
+    public Class2(String name2){
+        Name2 = name2;
+    }
+   //constructor sets name2 to name passed from Class1
+    public String getName(){
+        //return type
+        return Name2;
+    }
+    
+    public void saying(){
+        
+        System.out.printf("Your name is %s", getName());
+        // %s : looking for a string, String name
+        
+    }
+  
+}

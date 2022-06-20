@@ -1,0 +1,39 @@
+public class Operators {
+
+  	public static void main(String[] args) 
+	{
+	
+	int A,B,C;
+        
+            A = 20;
+            B = 6;
+
+        C = A + B;
+        System.out.println(A + "+"+ B +"="+ C);
+        //Addition
+        
+        C = A - B;
+        System.out.println(A + "-"+ B +"="+ C);
+        //Subtraction
+        
+        C = A * B;
+        System.out.println(A + "*"+ B +"="+ C);
+        //Multiply
+        
+        C = A / B;
+        System.out.println(A + "/"+ B +"="+ C);
+        //Divide
+        // C is an int so a whole number will be shown, 
+        // Use double to get the whole number + Remainder
+        
+        C = A % B;
+        System.out.println(A + "%"+ B +"="+ C);
+        //Mod
+        //Mod will print out only the remainder
+               
+        
+        System.out.println("");            
+        System.out.println("");
+	
+	}
+}
